@@ -1,5 +1,5 @@
 import LogInPage from "./pages/LogInPage/LogInPage";
-import "./styles/App.scss";
+import "./styles/partials/_globals.scss";
 
 function App() {
   return <LogInPage />;
