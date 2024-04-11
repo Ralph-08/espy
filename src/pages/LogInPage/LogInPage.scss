@@ -1,0 +1,20 @@
+@use "../../styles/partials/_mixins.scss" as *;
+@use "../../styles/partials/_variables.scss" as *;
+
+.nav {
+    height: 4rem;
+    width: 100%;
+    background-color: $primary-color;
+}
+
+.main {
+    align-items: center;
+    row-gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+
+    &__logo {
+        width: 15rem;
+    }
+}
