@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LogInPage />} />
         <Route path="/orders" element={<DashboardPage />} />
+        <Route path="/history" element={<DashboardPage />} />
       </Routes>
     </BrowserRouter>
   );
